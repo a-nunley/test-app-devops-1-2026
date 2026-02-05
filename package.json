@@ -18,6 +18,13 @@
   "keywords": [],
   "description": "",
   "dependencies": {
-    "express": "^5.2.1"
+    "bcryptjs": "^3.0.3",
+    "commonjs": "^0.0.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "js": "^0.1.0",
+    "json": "^11.0.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.1.0"
   }
 }
