@@ -1,16 +1,23 @@
 {
-  "name": "george-dev-project",
+  "name": "test-app-devops-1-2026",
   "version": "1.0.0",
-  "description": "Simple Express and jQuery app for reading game data",
+  "description": "Full stack MVC student CRUD app for CIS 486",
   "type": "module",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "node app.js"
+    "dev": "nodemon app.js"
   },
   "author": "Alexander Nunley",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.2.1"
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
